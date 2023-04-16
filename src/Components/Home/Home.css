@@ -1,0 +1,67 @@
+.hero-content h1{
+    font-weight: 700;
+    font-size: 77px;
+    line-height: 90px;
+    color: #1A1919;
+    margin-bottom: 24px;
+}
+.hero-content p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.hero-content h1 .diff-color{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.btn-start{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 20px 10px;
+    transition: all 0.3s ease-in-out;
+ }
+.btn-start:hover{
+    background: linear-gradient(0deg, #7E90FE 0%, #9873FF 100%);
+}
+.btn-more{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 20px 10px;
+    transition: all 0.3s ease-in-out;  
+}
+
+
+@media (min-width: 320px) and (max-width: 576px){
+    .hero-content h1{
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+    }   
+    .hero-content h1 {
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+      }
+      .hero-content p {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+      } 
+      .btn-start {
+        width: 150px;
+        margin: auto;
+        display: block;
+      }
+
+
+}
