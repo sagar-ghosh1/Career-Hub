@@ -1,0 +1,18 @@
+.job-card h2 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 33px;
+    color: #474747;
+    margin-bottom: 6px;
+  }
+.job-card h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #757575;
+    margin-bottom: 6px;
+}
+.image-div{
+    display: flex;
+    align-items: center; 
+}
