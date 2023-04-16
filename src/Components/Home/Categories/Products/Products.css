@@ -1,0 +1,50 @@
+
+.card-div{
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding: 40px;
+    height: 410px;
+}
+.card-div .img-size{
+    width: 28%;
+    margin-bottom: 32px;
+}
+.card-div h2{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 33px;
+    color: #474747;
+    margin-bottom: 6px;
+}
+.card-div h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px; 
+    color: #757575;
+    margin-bottom: 6px;
+}
+.job-detail .job-type{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border: 2px solid #7E90FE;
+    padding: 9px 19px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+
+.btn-view{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 20px 10px;
+    transition: all 0.3s ease-in-out;
+}
