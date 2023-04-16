@@ -1,0 +1,22 @@
+[
+    {
+        "png": "assets/Icons/accounts.png",
+        "title": "Account & Finance",
+        "JobAvailable": 300
+    },
+    {
+        "png": "assets/Icons/business.png",
+        "title": "Creative Design",
+        "JobAvailable": 100
+    },
+    {
+        "png": "assets/Icons/social-media 1.png",
+        "title": "Marketing & Sales",
+        "JobAvailable": 150
+    },
+    {
+        "png": "assets/Icons/chip.png",
+        "title": "Engineering Job",
+        "JobAvailable": 224
+    }
+]
