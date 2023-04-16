@@ -1,0 +1,98 @@
+.Header{
+    background-color: #f9f9ff;
+}
+.Main-container{
+    margin: auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+    font-weight: 800;
+    font-size: 30px;
+    color: #1A1919;
+}
+nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+nav ul a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #757575;
+    margin: 0 18px;
+    transition: all 0.3s ease-in-out;
+}
+nav ul a:hover{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+}
+.buttons{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+ .buttons .btn-apply{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 20px 10px;
+    transition: all 0.3s ease-in-out;
+ }
+ .buttons .btn-apply:hover{
+    background: linear-gradient(0deg, #7E90FE 0%, #9873FF 100%);
+ }
+
+ @media (min-width: 320px) and (max-width: 576px){
+    .sidebar {
+        position: absolute;
+        top: -570px;
+        left: 26px;
+        width: 90%;
+        border-radius: 10px;
+        height: 70vh;
+        background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 33;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+      }
+      .sidebar.active{
+        top: 72px;
+        visibility: visible;
+        opacity: 1;
+      }
+    nav{
+        position: static;
+        transform: translate(0);
+    }
+      nav ul a {
+        display: block;
+        margin: 18px 0;
+        color: #FFFFFF;
+      }
+      .buttons{
+        position: static;
+        transform: translateY(0);
+      }
+      .buttons .btn-apply{
+        background: yellowgreen;
+     }
+     nav ul a:hover{
+        background: none;
+        -webkit-text-fill-color: yellowgreen; 
+    }
+ }
